@@ -14,6 +14,14 @@
   --heading: #ffffff;
 
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+
+  /* the site is light, like the CSCI 366 site */
+  --site-bg: #f4f4f2;
+  --site-ink: #1a1a1a;
+  --site-muted: #5a5a5a;
+  --site-blue: #002f87;
+  --site-line: #d8d8d4;
+
   --sans: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }

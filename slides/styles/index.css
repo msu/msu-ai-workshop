@@ -161,6 +161,55 @@
 }
 
 /* cover and end */
+.end-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 3rem;
+}
+
+.end-site {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.end-site img {
+  width: 15rem;
+}
+
+.slidev-layout.end .end-site h1 {
+  font-size: 2.4rem;
+  margin: 0;
+  text-align: center;
+}
+
+.end-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.slidev-layout .end-link a {
+  font-family: var(--mono);
+  font-size: 0.95rem;
+  color: var(--msu-gold);
+  border: 0;
+  white-space: nowrap;
+}
+
+/* scanners need the white background and sharp pixels */
+.end-qr {
+  width: 21rem;
+  background: #fff;
+  border-radius: 6px;
+  image-rendering: pixelated;
+}
+
 .slidev-layout.cover,
 .slidev-layout.end.end {
   background: var(--paper);

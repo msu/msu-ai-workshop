@@ -350,6 +350,21 @@ n: 6
 <injection-doc />
 
 ---
+
+# My Essays On AI
+
+* I write about all of this on the [htmx essays page](https://htmx.org/essays/all/)
+* If you read only one, read [_The University In The AI Era_](https://htmx.org/essays/universities-and-ai/)
+
+::right::
+
+## Essays
+
+1. [The University In The AI Era](https://htmx.org/essays/universities-and-ai/)
+2. [Working With AI: A Concrete Example](https://htmx.org/essays/working-with-ai/)
+3. [Code is Cheap(er)](https://htmx.org/essays/code-is-cheap/)
+
+---
 layout: default
 ---
 
@@ -369,10 +384,13 @@ layout: default
 layout: end
 ---
 
-<div class="eyebrow">Montana State University / Faculty Workshop</div>
-
-# Effective AI For Engineering Faculty
-
-<div class="byline">Slides, demos and links: msu.github.io/msu-ai-workshop</div>
-
-<img class="cover-logo" src="/bobcat.png" alt="MSU Bobcat logo">
+<div class="end-row">
+  <div class="end-site">
+    <img src="/bobcat.png" alt="MSU Bobcat logo">
+    <h1>Effective AI For Engineering Faculty</h1>
+  </div>
+  <div class="end-link">
+    <img class="end-qr" src="/site-qr.png" alt="QR code for https://msu.github.io/msu-ai-workshop/">
+    <a href="https://msu.github.io/msu-ai-workshop/">https://msu.github.io/msu-ai-workshop/</a>
+  </div>
+</div>
