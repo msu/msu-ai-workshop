@@ -84,6 +84,14 @@
 }
 
 /* shared parts of the inline SVG figures */
+.credit {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--muted);
+  text-align: right;
+}
+
 .fig { width: 100%; }
 .fig-bg { fill: #f3f4f6; }
 .fig-card { fill: #fff; stroke: #c9ccd1; }

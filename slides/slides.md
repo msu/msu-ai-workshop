@@ -85,9 +85,9 @@ n: 1
 # Coding Agents
 
 * A _Coding Agent_ is a local program that can:
-* Read and write your files
-* Runs commands, edits in place
-* Works with you in a loop, like a conversation
+  * Read and write your files
+  * Run commands and edit in place
+  * Work with you in a loop, like a conversation
 
 ::right::
 
@@ -259,7 +259,7 @@ n: 5
 
 # Grade Transfer
 
-* Final grades live in a CSV from canvas, university grade form takes them one at a time by hand
+* Final grades live in a CSV from Canvas, university grade form takes them one at a time by hand
   * Not on my watch!
 * An LLM-generated script turns the grade CSV into JavaScript to fill in the form
 * Requires low level web knowledge to use, but I'm happy to share it
@@ -342,12 +342,14 @@ n: 6
 
 # LLM Concerns
 
-* _The Sorcerers Apprentice Problem_: Easy to build systems that you don't understand and can't control
-* _Social Concerns_: AI companies are run mainly by supervillians 😞
+* _The Sorcerer's Apprentice Problem_: Easy to build systems that you don't understand and can't control
+* _Social Concerns_: AI companies are run mainly by supervillains 😞
 
 ::right::
 
-<injection-doc />
+<img class="shot" src="/shots/sorcerers-apprentice.png" alt="Engraving of the sorcerer's apprentice, arms raised, with a broom in a cloud of water">
+
+<div class="credit">Der Zauberlehrling, Ferdinand Barth, 1882</div>
 
 ---
 layout: default
@@ -372,7 +374,7 @@ layout: default
 * Think big about what you can build
 * Let agents automate the grind
 * Protect learning with old-timey assessments
-* Don't let an LLM near FERPA data
+* Don't let a commercial LLM near FERPA data
 
 ---
 layout: end
