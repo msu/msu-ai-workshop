@@ -24,7 +24,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npx slidev build slides/slides.md --out ../dist/slides --base /${{ github.event.repository.name }}/slides/
+      - run: npx slidev build slides/slides.md --out ../dist/slides --base /${{ github.event.repository.name }}/slides/ --router-mode hash
       - run: cp -r site/. dist/
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
