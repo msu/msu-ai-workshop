@@ -1,7 +1,6 @@
 <!-- Inline SVG, not an image file, so the text can use the deck fonts -->
 <script setup lang="ts">
 const courses = [
-  ['CSCI 305', 'Programming Languages'],
   ['CSCI 366', 'Computer Systems'],
   ['CSCI 431', 'Hypermedia Systems'],
   ['CSCI 440', 'Database Systems'],
@@ -11,7 +10,7 @@ const courses = [
 </script>
 
 <template>
-  <svg class="course-list" viewBox="0 0 420 372" role="img" aria-label="Courses I teach">
+  <svg class="course-list" viewBox="0 0 420 318" role="img" aria-label="Courses I teach">
     <text x="210" y="24" text-anchor="middle" class="title">Courses I Teach</text>
     <g v-for="([code, name], i) in courses" :key="code" :transform="`translate(0 ${48 + i * 54})`">
       <line x1="0" x2="420" y1="0" y2="0" class="rule" />
