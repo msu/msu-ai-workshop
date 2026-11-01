@@ -4,7 +4,7 @@ One file per live demo. Each file holds the setup, the prompt to type, and the f
 
 | File                    | Idea                 | Live or recorded |
 |-------------------------|----------------------|------------------|
-| `00_opener.md`          | Opener               | TODO             |
+| `00_opener.md`          | Opener               | Live             |
 | `01_command_line.md`    | Learn The Command Line | TODO           |
 | `02_old_deck.md`        | Everything Is Text   | TODO             |
 | `03_visualization.md`   | Visualizations       | TODO             |

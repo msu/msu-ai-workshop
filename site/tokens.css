@@ -2,26 +2,18 @@
    Brand values come from the earlier ai-workshop site. Check them against the MSU brand guide. */
 :root {
   --msu-blue: #00205b;
-  --msu-blue-2: #003a8c;
   --msu-gold: #c1a875;
+  --gold-ink: #c1a875; /* gold for small text */
 
-  --bg: #050c1f;
-  --bg-2: #0a1838;
-  --panel: rgba(255, 255, 255, 0.035);
-  --panel-2: rgba(255, 255, 255, 0.06);
-  --line: rgba(193, 168, 117, 0.22);
-  --grid: rgba(120, 150, 210, 0.07);
-  --ink: #e9edf5;
-  --muted: #9aa7c0;
-  --link: #8fb3ff;
-  --glow: rgba(193, 168, 117, 0.35);
+  --paper: #0e1a30;
+  --panel: #172640;
+  --line: #2c3b57;
+  --ink: #e6e9ef;
+  --muted: #a5afc0;
+  --link: #a3c0f5;
+  --heading: #ffffff;
 
-  --sans: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --mono: "Cascadia Mono", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-
-  --grid-bg:
-    linear-gradient(var(--grid) 1px, transparent 1px) 0 0 / 40px 40px,
-    linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0 / 40px 40px,
-    radial-gradient(ellipse 80% 60% at 85% 0%, rgba(0, 58, 140, 0.45), transparent 70%),
-    var(--bg);
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }

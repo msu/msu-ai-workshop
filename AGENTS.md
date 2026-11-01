@@ -1,4 +1,4 @@
-# AI For Engineering Faculty
+# Effective AI For Engineering Faculty
 
 Read `README.md` for the layout.
 

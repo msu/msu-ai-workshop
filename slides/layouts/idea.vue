@@ -16,42 +16,31 @@ defineProps({
 
 <template>
   <div class="slidev-layout idea">
-    <div class="idea-num">{{ String(n).padStart(2, '0') }}</div>
-    <div class="idea-body">
-      <div class="eyebrow">Big Idea {{ n }}</div>
-      <slot />
-    </div>
+    <div class="eyebrow">Big Idea {{ n }}</div>
+    <slot />
   </div>
 </template>
 
 <style scoped>
 .idea {
   height: 100%;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  column-gap: 3rem;
-  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5rem;
 }
 
-.idea-num {
-  font-family: var(--mono);
-  font-size: 9rem;
-  line-height: 1;
-  color: transparent;
-  -webkit-text-stroke: 2px var(--msu-gold);
-  text-shadow: 0 0 40px var(--glow);
-}
-
-.idea-body :deep(h1) {
-  font-size: 3.2rem;
+.idea :deep(h1) {
+  font-size: 3.4rem;
   line-height: 1.1;
 }
 
-.idea-body :deep(h2) {
-  color: var(--muted);
+.idea :deep(h2) {
+  font-family: var(--serif);
+  font-style: italic;
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  color: var(--muted);
   margin-top: 0.75rem;
 }
 </style>

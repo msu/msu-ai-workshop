@@ -1,4 +1,4 @@
-# AI For Engineering Faculty
+# Effective AI For Engineering Faculty
 
 Slides, demos and site for the Montana State faculty workshop, Nov 4 2026, NAH 137.
 

@@ -1,55 +1,63 @@
 ---
-title: AI For Engineering Faculty
+title: Effective AI For Engineering Faculty
 info: Montana State University faculty workshop, Nov 4 2026, NAH 137
 colorSchema: dark
 defaults:
   layout: two-cols
 mdc: true
 fonts:
-  mono: Cascadia Mono
-  sans: Atkinson Hyperlegible
+  sans: Source Sans 3
+  serif: Source Serif 4
+  mono: IBM Plex Mono
+  weights: '400,600'
+  italic: true
 layout: cover
 ---
 
 <div class="eyebrow">Montana State University / Faculty Workshop</div>
 
-# Effective AI
-
-## Using AI as Engineering Faculty
+# Effective AI For Engineering Faculty
 
 <div class="byline">Carson Gross / Gianforte School of Computing / Nov 4 2026</div>
+
+<img class="cover-logo" src="/bobcat.png" alt="MSU Bobcat logo">
+
+<!--
+Before this slide: ask for a topic and start the agent. See demos/00_opener.md
+-->
 
 
 ---
 
 # About Me
 
-* TODO: one line on who I am
-* TODO: courses I teach
-* TODO: why I started using AI for course work
+* Carson Gross, Instructor, Gianforte School of Computing
+* Creator of [_htmx_](https://htmx.org), co-author of [_Hypermedia Systems_](https://hypermedia.systems)
+* I began using AI extensively roughly 18 months ago for programming & class work
 
 ::right::
 
-<!-- TODO: photo or course list -->
+<course-list />
 
 ---
 
-# Today
+# Today's Talk
 
-* Six big ideas
-* Mostly demos, few bullets
-* Everything is on the site, so no need to take notes
+* I'm going to give you six big ideas around using AI effectively
+* I'm going to focus mainly on demos
+* I'm recording this and will publish everything, including a transcript, to a website
+  * No need to take notes
 
 ::right::
 
-```text
-  01  Learn The Command Line
-  02  Everything Is Text
-  03  Visualizations
-  04  Think Big
-  05  Automate The Grind
-  06  Protect The Learning
-```
+## The Big Ideas
+
+1. Learn The Command Line
+2. LLMs &nbsp; _Love_ &nbsp; Text
+3. Killer Visualizations
+4. Think &nbsp; **Big**
+5. Automate The Grind
+6. Protect Learning
 
 ---
 layout: idea
@@ -58,7 +66,7 @@ n: 1
 
 # Learn The Command Line
 
-## The chat window is the slow way
+## Agentic work is local, not in a chatbot
 
 ---
 
@@ -70,277 +78,173 @@ n: 1
 
 ::right::
 
-```text
-  Chat window          Coding agent
-  -----------          ------------
-  paste a file    ->   reads any file
-  copy reply back ->   edits in place
-  no memory       ->   project rules
-  no commands     ->   runs the build
-```
+<chat-vs-agent />
 
 ---
 
 # Coding Agents
 
-* A local program that reads your files
+* A _Coding Agent_ is a local program that can:
+* Read and write your files
 * Runs commands, edits in place
-* Works in a loop, like a conversation
+* Works with you in a loop, like a conversation
 
 ::right::
 
-```bash
-> fix the typo on slide 4
+<coding-agent />
 
-  Read   20_compilers.md
-  Edit   20_compilers.md
-   -  * a compilier turns source
-   +  * a compiler turns source
+---
 
-  Done. One line changed.
-```
+# The Terminal
+
+* The _terminal_ is a text interface to your computer: you type in commands, 1970s style
+* Agents work well in terminals: text in/text out is what LLMs do
+* They can run commands as well
+* A recurring irony of AI/LLMs: _Old technologies are becoming important again_
+
+::right::
+
+<mac-terminal />
 
 ---
 
 # Coding Agents: Not Just For Code
 
-* TODO: the name is misleading
-* TODO: lectures, quizzes, syllabi, grading scripts
-* TODO: engineering example outside CS
+* The name Coding Agent is misleading: an agent can work on _any_ text file (and, increasingly, on non-text files)
+* I use them for lectures, quizzes, syllabi, grading scripts, etc
+* They can be used effectively for lab reports, LaTeX and MATLAB, etc.
+* You will be surprised!
 
 ::right::
 
-```text
-  > what does this project do?
-
-  read  AGENTS.md
-  read  lectures/ (38 files)
-  bash  git log --oneline -5
-
-  "A systems course built around
-   two teaching CPUs..."
-```
-
-<!--
-Demo: demos/01_command_line.md
--->
-
----
-
-# The Terminal Is Not Scary
-
-* TODO: the few commands you need
-* TODO: where to start on Mac and Windows
-* TODO: honest note on the learning curve
-
-::right::
-
-```bash
-  cd ~/courses/my-course
-  claude
-
-  > _
-```
+<any-text-file />
 
 ---
 layout: idea
 n: 2
 ---
 
-# Everything Is Text
+# LLMs &nbsp; _Love_ &nbsp; Text
 
 ## If an agent can read it, an agent can help with it
 
 ---
 
-# Plain Text Course Material
+# Using Plain Text 
 
-* Slides in markdown with _Slidev_
-* Readers in _Typst_, PDFs with _pandoc_
-* TODO: what this means for Word and PowerPoint users
+* In order to minimize agentic friction I keep my course materials in plain text formats as much as possible
+  * Mainly [_markdown_](https://www.markdownguide.org)
+* For slides, I use [_Slidev_](https://sli.dev), a markdown-based slide system
+* Non-text formats like Word & PowerPoint are harder for agents to work with
+* Again, LLMs driving us back to older technologies!
 
 ::right::
 
-```text
-  csci-366-template/
-    lectures/      slidev decks
-    assignments/   one .md per assignment
-    demos/         interactive figures
-    internal/
-      quizzes/
-      speaker-notes/
-      transcripts/
-```
+<markdown-doc />
 
 ---
 
-# Diffs
+# Source Control
 
-* Every agent change shows as a diff
-* I read the diff, then I keep it or throw it out
-* _git_ is the undo button
+* Text works well with _source control_: tools like _git_ that save versions of your files
+* A _diff_ shows what changed between two versions, like Track Changes in MS Word
+* So I can read each change the agent makes, and undo it if it is wrong
 
 ::right::
 
-<!-- TODO: screenshot of a diff in IntelliJ -->
+<text-diff />
 
 ---
 
-# Writing Down Your Taste
+# `AGENTS.md`
 
-* Rules live in a markdown file the agent reads every run
-* Write your taste once, use it on every task
-* Like instructions for an eager TA
-
-::right::
-
-```markdown
-# Lectures
-
-* Usually use a two-cols layout
-* Three bullets per slide on the left
-* Use italics for emphasis
-* Avoid "filler" slides like
-  "Pitfalls" or "Common Mistakes"
-```
-
----
-
-# Writing Down Your Taste
-
-* TODO: rules come from my own edits
-* TODO: when I fix the same thing twice, it becomes a rule
-* TODO: voice file example
+* Agents look for a specific Markdown file in the directory (and parent directories) of where you are working: `AGENTS.md`
+* You write your rules there once: format, tone, what not to touch
+* It can point to other files, so the agent reads the slide rules only when it writes slides
 
 ::right::
 
-```markdown
-* Do not start the slide description
-  with "The"
-
-  * "hashCode: The Fix"
-      -> "hashCode: Fixing"
-  * "equals: The Contract"
-      -> "equals: Keeping The Contract"
-```
-
-<!--
-Demo: demos/02_old_deck.md
--->
+<agents-file />
 
 ---
 layout: idea
 n: 3
 ---
 
-# Visualizations
+# Killer Visualizations
 
-## Build the figure you always wanted in class
+## Build the visualizations you always wanted in class
 
 ---
 
-# Interactive Figures
+# Interactive Diagrams
 
-* TODO: what took weeks now takes an afternoon
-* TODO: one HTML file, no build, works on any laptop
-* TODO: students use them outside class
+* Custom interactive diagrams used to cost too much to build for one lecture
+* Now I describe the diagram, and an agent creates it
+* Here is a diagram of a binary adder
 
 ::right::
 
-```text
-  demos/03_binary_computing/
-    half-adder.html
-    full-adder.html
-    full-adder-block.html
-    ripple-carry-4.html
-    sram-cell.html
-```
+<live-figure file="full-adder.html" title="Interactive full adder" />
 
 ---
 
-# NAND To Adder
+# Gamifying Learning
 
-* TODO: build an adder from NAND gates
-* TODO: what students learn from it
+* Another thing I am doing is _gamifying_ learning for my students
+* NAND-to-add is a game to build an 8-bit adder up from NAND gates
 * [nand-to-add.cs.montana.edu](https://nand-to-add.cs.montana.edu)
 
 ::right::
 
-<!-- TODO: screenshot of nand-to-add -->
-
----
-
-# Live: A Figure For Your Course
-
-* TODO: pick a topic from the room
-* TODO: one prompt, one HTML file
-* TODO: what I check before I show it to students
-
-::right::
-
-<!-- Demo: demos/03_visualization.md -->
+<img class="shot" src="/shots/nand-to-add.png" alt="The NAND Game">
 
 ---
 layout: idea
 n: 4
 ---
 
-# Think Big
+# Think _Big_
 
-## Projects that were not worth the time before
+## You probably don't realize what you can do now
+
+---
+
+# MTMC-16
+
+* A 16-bit educational computer, with an emulator, an assembler and tooling
+* Registers, memory, a file system and a terminal, all on one screen
+* Initially built by hand, reworked with AI to be more like x86
+* [mtmc.cs.montana.edu](https://mtmc.cs.montana.edu)
+
+::right::
+
+<img class="shot" src="/shots/mtmc.png" alt="The MTMC-16 emulator">
 
 ---
 
 # Scott CPU
 
 * A gate-level emulator of the computer from _But How Do It Know?_
-* Every wire on screen is a net in the machine
+* Entirely vibe coded
+  * It was a *long* process getting it just right!
 * [scott-cpu.cs.montana.edu](https://scott-cpu.cs.montana.edu)
 
 ::right::
 
-<!-- TODO: screenshot of scott-cpu -->
+<img class="shot" src="/shots/scott-cpu.png" alt="The Scott CPU emulator">
 
 ---
 
-# MTMC-16
+# catatui
 
-* TODO: a teaching computer for the course
-* TODO: scope I would not try without AI
-* [mtmc.cs.montana.edu](https://mtmc.cs.montana.edu)
-
-::right::
-
-<!-- TODO: screenshot of mtmc -->
-
----
-
-# Tools For Me
-
-* An IntelliJ plugin to launch Slidev and export PDFs
-* Code comments on slides that link to the demo
-* TODO: one more
+* The Montana State command line agent, works with the free MSU CatChat models
+* Has a `ta` option to flip into teaching mode
+* [github.com/msu/catatui](https://github.com/msu/catatui)
 
 ::right::
 
-```java
-// HibernateDemos.lazyLoop()
-for (Order o : customer.getOrders()) {
-    ...
-}
-```
-
----
-
-# CatVibes
-
-* A desktop app for MSU students
-* Describe an app, CatVibes builds it
-* Uses the MSU CatChat models
-
-::right::
-
-<!-- TODO: screenshot of CatVibes -->
+<catatui-screen />
 
 ---
 layout: idea
@@ -349,107 +253,101 @@ n: 5
 
 # Automate The Grind
 
-## Let the agent write the glue
+## Let agents deal with the tedium: automate, automate, automate
 
 ---
 
 # Grade Transfer
 
-* TODO: the old copy-paste process
-* A script turns the grade CSV into JavaScript
-* The JavaScript fills in the university grade form
+* Final grades live in a CSV from canvas, university grade form takes them one at a time by hand
+  * Not on my watch!
+* An LLM-generated script turns the grade CSV into JavaScript to fill in the form
+* Requires low level web knowledge to use, but I'm happy to share it
 
 ::right::
 
-```just
-# Generate grade entry JavaScript from Canvas CSV
-# Run by a human only. Agents must not run it:
-# its output holds names and grades
-gen-final-grade-entries csv_path:
-    uv run ... generate_grade_script.py "{{csv_path}}"
-```
+<grade-form />
 
 ---
 
 # Course Chores
 
-* Quizzes, answer keys and TA rubrics from lecture notes
-* Print-ready PDFs, one question per page
-* Podium notes from the deck
+* Interactively generate quizzes, answer keys and TA rubrics from lecture notes
+* Generate podium notes from the deck for me to review before lectures
 
 ::right::
 
-```text
-  gen-pdfs
-  gen-quizzes
-  print-quiz
-  gen-notes
-  gen-cheatsheets
-```
+<course-pages />
 
 ---
 
 # Lecture Reviews
 
-* I record lectures, then get the transcript
-* The agent compares what I said to the deck
-* TODO: a fix it found
+* I record lectures on youtube, then download the transcript
+* An agent compares what I said to the slide deck
+* It proposes fixes, timing issues, etc for next time
+  * Very helpful
 
 ::right::
 
-<!-- TODO: excerpt of a review -->
+<file-panel name="LECTURE-REVIEWS.md" :lines="['# Lecture Reviews', '', 'A review compares the transcript of a', 'recorded lecture with its deck, and', 'proposes fixes.', '', '* Show me a summary of the analysis', '* Do not change the deck until I tell you', '* Expect transcription errors', '* Do not put everything I say on a slide']" />
 
 ---
 layout: idea
 n: 6
 ---
 
-# Protect The Learning
+# Protect Learning
 
-## AI helps me teach, it must not do the learning for students
+## AI is a tool, that tool can be used for good or for evil...
 
 ---
 
 # Assessment
 
-* Handwritten quizzes, in person
-* Written response over multiple choice
-* TODO: layered assignments, by hand then with AI
+* I have gone to handwritten quizzes, in person, every three weeks
+* One page of handwritten notes
+* Assignments are valuable for students who actually do them, but are no longer effective assessment tools
+* There's that irony again: butt-in-chair tests... old-timey!
 
 ::right::
 
-<!-- TODO: photo of a quiz page -->
+<quiz-page />
 
 ---
 
 # Student Data
 
-* Assume anything you send is not private
-* All student data lives in one folder
-* The agent writes the tool, a human runs it on real data
+* GENERAL LLMs MUST NOT HANDLE FERPA PROTECTED DATA
+* When working with a private company LLM (ChatGPT, Claude) assume anything you send is not private
+* catatui/CatChat _can_ handle student data, but _be careful_
+* I have extensive guards to prevent student data from leaking into LLM sessions
 
 ::right::
 
-```text
-  internal/students/<semester>/
-    profiles.csv
-    submissions/
-    grading/
-
-  # never anywhere else
-```
+<data-firewall />
 
 ---
 
-# Honest Tradeoffs
+# LLM Concerns
 
-* TODO: prompt injection
-* TODO: wrong answers, stated with confidence
-* TODO: the junior developer problem
+* _Prompt injection_: agents act on text they read, files can carry hostile instructions
+* _Almost Right Answers_: LLMs generate statistically plausible responses, so what they say always _looks_ right, even if it isn't
 
 ::right::
 
-<!-- TODO -->
+<injection-doc />
+
+---
+
+# LLM Concerns
+
+* _The Sorcerers Apprentice Problem_: Easy to build systems that you don't understand and can't control
+* _Social Concerns_: AI companies are run mainly by supervillians 😞
+
+::right::
+
+<injection-doc />
 
 ---
 layout: default
@@ -457,13 +355,15 @@ layout: default
 
 # Summary
 
-* Use a command-line agent, not a chat window
-* Keep course material as plain text
-* Write your taste down as rules
+* Learn to use command-line agents
+* Move course material to plain text (an LLM can help!)
+* Learn Markdown
+* Build out your `AGENTS.md`
 * Build the visualizations you always wanted
-* Think bigger about what is worth building
-* Let the agent write the glue, review every diff
-* Protect the learning with in-person assessment
+* Think big about what you can build
+* Let agents automate the grind
+* Protect learning with old-timey assessments
+* Don't let an LLM near FERPA data
 
 ---
 layout: end
@@ -471,8 +371,8 @@ layout: end
 
 <div class="eyebrow">Montana State University / Faculty Workshop</div>
 
-# AI For Engineering Faculty
+# Effective AI For Engineering Faculty
 
-## How I actually use AI in my courses
+<div class="byline">Slides, demos and links: msu.github.io/msu-ai-workshop</div>
 
-<div class="byline">Slides, demos and links: TODO site URL</div>
+<img class="cover-logo" src="/bobcat.png" alt="MSU Bobcat logo">
