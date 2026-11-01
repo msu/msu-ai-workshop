@@ -70,11 +70,11 @@ n: 1
 
 ---
 
-# Chat vs Agent
+# ChatBots vs Agents
 
-* Most people use AI in a chat window
-* Chat sees only what you paste in
-* Chat hands back text you copy out
+* Many people use AI in a chatbot window, e.g. via https://chatgpt.com
+* An online chatbots only see what you type, paste & upload
+* A common workflow is to copy & paste out from a chatbot
 
 ::right::
 
@@ -84,10 +84,10 @@ n: 1
 
 # Coding Agents
 
-* A _Coding Agent_ is a local program that can:
-  * Read and write your files
-  * Run commands and edit in place
-  * Work with you in a loop, like a conversation
+* A _Coding Agent_ is a local program, running on your computer, that can:
+  * Read & write your files
+  * Run commands on your behalf
+  * Work with you in an _agentic_ loop over long time horizons
 
 ::right::
 
@@ -95,29 +95,54 @@ n: 1
 
 ---
 
-# The Terminal
-
-* The _terminal_ is a text interface to your computer: you type in commands, 1970s style
-* Agents work well in terminals: text in/text out is what LLMs do
-* They can run commands as well
-* A recurring irony of AI/LLMs: _Old technologies are becoming important again_
-
-::right::
-
-<mac-terminal />
-
----
-
 # Coding Agents: Not Just For Code
 
-* The name Coding Agent is misleading: an agent can work on _any_ text file (and, increasingly, on non-text files)
-* I use them for lectures, quizzes, syllabi, grading scripts, etc
-* They can be used effectively for lab reports, LaTeX and MATLAB, etc.
-* You will be surprised!
+* The name "Coding Agent" is a bit misleading: an agent can help you work on nearly _any_ file
+* I use Agents for lectures, quizzes, syllabi, grading scripts, etc.
+* Agents can be used effectively for lab reports, LaTeX and MATLAB, etc.
+  * You will be surprised, I haver been!
 
 ::right::
 
 <any-text-file />
+
+---
+
+# The Terminal
+
+* The _terminal_ is a textual interface to your computer: you type text in commands, 1970s style!
+* Agents work _incredibly well_ in terminals, especially UNIX-style environments (MacOS, Linux, WSL on Windows)
+* They understand the command line tools even if you don't
+
+::right::
+<mac-terminal />
+
+---
+
+# The Terminal
+
+* You don't need to be a terminal guru to work with Agents effectively
+* Learn enough to get around:
+  * `pwd` - print the current directory
+  * `cd` - change to a new directory
+  * `ls` - list files in a directory
+* Agents can handle the rest: scripting, bulk operations, finding stuff, etc.
+
+::right::
+
+<mac-terminal still />
+
+---
+
+# The Terminal
+
+* "Learn the terminal" is one of many ironies of the AI & Agentic age
+* These cutting-edge technologies are making _older_ technologies (such as the terminal) relevant again
+* I see this over & over when working with AI
+
+::right::
+
+<mac-terminal still />
 
 ---
 layout: idea
@@ -132,11 +157,22 @@ n: 2
 
 # Using Plain Text 
 
-* In order to minimize agentic friction I keep my course materials in plain text formats as much as possible
-  * Mainly [_markdown_](https://www.markdownguide.org)
-* For slides, I use [_Slidev_](https://sli.dev), a markdown-based slide system
-* Non-text formats like Word & PowerPoint are harder for agents to work with
-* Again, LLMs driving us back to older technologies!
+* Speaking of old-timey technologies...
+* In order to minimize agentic friction I try to keep my course materials in _plain text formats_ as much as possible
+  * Mainly [_Markdown_](https://www.markdownguide.org)
+* For lectures, I use [_Slidev_](https://sli.dev), a markdown-based slide system
+
+::right::
+
+<markdown-doc />
+
+---
+
+# Using Plain Text
+
+* Non-textual, binary formats like PDF, Word & PowerPoint turn out to be harder for agents to work with
+  * You can usually _generate_ these formats if necessary, including meeting accessibility standards!
+* The ancient UNIX philosophy of "text as a universal interface" rises again
 
 ::right::
 
@@ -148,7 +184,7 @@ n: 2
 
 * Text works well with _source control_: tools like _git_ that save versions of your files
 * A _diff_ shows what changed between two versions, like Track Changes in MS Word
-* So I can read each change the agent makes, and undo it if it is wrong
+* You can read each change the agent makes, and undo it if it is wrong
 
 ::right::
 
@@ -159,8 +195,8 @@ n: 2
 # `AGENTS.md`
 
 * Agents look for a specific Markdown file in the directory (and parent directories) of where you are working: `AGENTS.md`
-* You write your rules there once: format, tone, what not to touch
-* It can point to other files, so the agent reads the slide rules only when it writes slides
+* You can give Agents instructions in these files: formats to use, tone, styles, types of diagrams to create, etc.
+* Powerful mechanism for getting consistent results from Agents
 
 ::right::
 
@@ -179,9 +215,9 @@ n: 3
 
 # Interactive Diagrams
 
-* Custom interactive diagrams used to cost too much to build for one lecture
-* Now I describe the diagram, and an agent creates it
-* Here is a diagram of a binary adder
+* Custom interactive diagrams used to be very expensive for me to create: one diagram could take _hours_
+* Now I describe the diagram to an Agent and, in a few mintues of back-and-forth, have an excellent, interactive diagram
+* This is a binary adder from my systems course
 
 ::right::
 
@@ -192,7 +228,7 @@ n: 3
 # Gamifying Learning
 
 * Another thing I am doing is _gamifying_ learning for my students
-* NAND-to-add is a game to build an 8-bit adder up from NAND gates
+* NAND-to-add is a game to build an 8-bit adder up from NAND gates, created with an Agent in a few hours
 * [nand-to-add.cs.montana.edu](https://nand-to-add.cs.montana.edu)
 
 ::right::
