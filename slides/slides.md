@@ -350,19 +350,13 @@ n: 6
 <injection-doc />
 
 ---
+layout: default
+class: essays-page
+---
 
-# My Essays On AI
+# Some Essays On AI
 
-* I write about all of this on the [htmx essays page](https://htmx.org/essays/all/)
-* If you read only one, read [_The University In The AI Era_](https://htmx.org/essays/universities-and-ai/)
-
-::right::
-
-## Essays
-
-1. [The University In The AI Era](https://htmx.org/essays/universities-and-ai/)
-2. [Working With AI: A Concrete Example](https://htmx.org/essays/working-with-ai/)
-3. [Code is Cheap(er)](https://htmx.org/essays/code-is-cheap/)
+<essay-list />
 
 ---
 layout: default
