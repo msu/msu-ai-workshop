@@ -384,7 +384,7 @@ n: 6
 ::right::
 
 
-<img class="shot" src="./public/slides_image_1793635945132.webp" alt="Engraving of the sorcerer's apprentice, arms raised, with a broom in a cloud of water">
+<img class="shot" src="/slides_image_1793635945132.webp" alt="Engraving of the sorcerer's apprentice, arms raised, with a broom in a cloud of water">
 
 
 ---
@@ -422,7 +422,7 @@ layout: end
     <h1>Effective AI For Engineering Faculty</h1>
   </div>
   <div class="end-link">
-    <img class="end-qr" src="/site-qr.png" alt="QR code for https://msu.github.io/msu-ai-workshop/">
-    <a href="https://msu.github.io/msu-ai-workshop/">https://msu.github.io/msu-ai-workshop/</a>
+    <img class="end-qr" src="/site-qr.png" alt="QR code for https://msu.github.io/msu-nov-2026-ai-workshop/">
+    <a href="https://msu.github.io/msu-nov-2026-ai-workshop/">https://msu.github.io/msu-nov-2026-ai-workshop/</a>
   </div>
 </div>
