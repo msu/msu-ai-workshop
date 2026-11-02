@@ -383,9 +383,9 @@ n: 6
 
 ::right::
 
-<img class="shot" src="/shots/sorcerers-apprentice.png" alt="Engraving of the sorcerer's apprentice, arms raised, with a broom in a cloud of water">
 
-<div class="credit">Der Zauberlehrling, Ferdinand Barth, 1882</div>
+<img class="shot" src="./public/slides_image_1793635945132.webp" alt="Engraving of the sorcerer's apprentice, arms raised, with a broom in a cloud of water">
+
 
 ---
 layout: default
