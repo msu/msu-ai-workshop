@@ -127,6 +127,7 @@ n: 1
   * `cd` - change to a new directory
   * `ls` - list files in a directory
 * Agents can handle the rest: scripting, bulk operations, finding stuff, etc.
+* [_MDN Command Line Crash Course_](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line)
 
 ::right::
 
@@ -276,7 +277,7 @@ n: 4
 
 * The Montana State command line agent, works with the free MSU CatChat models
 * Has a `ta` option to flip into teaching mode
-* [github.com/msu/catatui](https://github.com/msu/catatui)
+* [catatui.cs.montana.edu](https://catatui.cs.montana.edu)
 
 ::right::
 
