@@ -84,17 +84,8 @@ h2 {
   font-size: 1.4rem;
 }
 
-h3 {
-  margin: 2rem 0 0.25rem;
-  font-family: var(--serif);
-  font-size: 1.15rem;
-  font-weight: 600;
-  color: var(--site-blue);
-  text-wrap: balance;
-}
-
 .sub-links {
-  margin: 0 0 0.75rem;
+  margin: -0.5rem 0 0.75rem;
   color: var(--site-muted);
 }
 
