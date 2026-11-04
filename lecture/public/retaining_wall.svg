@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Atkinson Hyperlegible, Helvetica, Arial, sans-serif">
+<defs><marker id="ah-dc2626" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-2563eb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-7c3aed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-0891b2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0891b2"/></marker><marker id="ah-c026d3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c026d3"/></marker><marker id="ah-1e293b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e293b"/></marker><marker id="ah-475569" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-94a3b8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker></defs>
+<rect x="0" y="0" width="600" height="400" rx="14" fill="#f8fafc"/>
+<rect x="20" y="340" width="560" height="40" fill="#d6d3d1"/>
+<rect x="330" y="60" width="34" height="280" fill="#475569"/>
+<rect x="60" y="80" width="270" height="260" fill="#38bdf8" fill-opacity="0.35"/>
+<line x1="60.0" y1="80.0" x2="330.0" y2="80.0" stroke="#0284c7" stroke-width="2"/>
+<text x="120.0" y="70.0" font-size="14" fill="#0284c7" text-anchor="middle" font-weight="normal">water</text>
+<line x1="312.4" y1="110.6" x2="326.0" y2="110.6" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="294.7" y1="141.2" x2="326.0" y2="141.2" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="277.1" y1="171.8" x2="326.0" y2="171.8" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="259.4" y1="202.4" x2="326.0" y2="202.4" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="241.8" y1="232.9" x2="326.0" y2="232.9" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="224.1" y1="263.5" x2="326.0" y2="263.5" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="206.5" y1="294.1" x2="326.0" y2="294.1" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="188.8" y1="324.7" x2="326.0" y2="324.7" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<polyline points="330,80 180,340" fill="none" stroke="#dc2626" stroke-width="2"/>
+<text x="170.0" y="334.0" font-size="15" fill="#dc2626" text-anchor="end" font-weight="normal">w<tspan baseline-shift="sub" font-size="70%">0</tspan> = &#961; g h</text>
+<line x1="400.0" y1="80.0" x2="400.0" y2="340.0" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="393.0" y1="80.0" x2="407.0" y2="80.0" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="393.0" y1="340.0" x2="407.0" y2="340.0" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="412.0" y="210.0" font-size="18" fill="#1e293b" text-anchor="start" font-weight="normal" font-style="italic">h</text>
+<text x="347.0" y="374.0" font-size="15" fill="#c026d3" text-anchor="middle" font-weight="bold">M<tspan baseline-shift="sub" font-size="70%">base</tspan> = &#961; g h<tspan baseline-shift="super" font-size="70%">3</tspan>/6</text>
+</svg>

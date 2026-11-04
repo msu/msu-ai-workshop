@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Atkinson Hyperlegible, Helvetica, Arial, sans-serif">
+<defs><marker id="ah-dc2626" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-2563eb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-7c3aed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-0891b2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0891b2"/></marker><marker id="ah-c026d3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c026d3"/></marker><marker id="ah-1e293b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e293b"/></marker><marker id="ah-475569" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-94a3b8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker></defs>
+<rect x="0" y="0" width="600" height="400" rx="14" fill="#f8fafc"/>
+<rect x="70" y="123.0" width="460" height="14" rx="2" fill="#475569"/>
+<polygon points="70.0,120 70.0,80.0 81.5,80.0 93.0,80.0 104.5,80.0 116.0,80.0 127.5,80.0 139.0,80.0 150.5,80.0 162.0,80.0 173.5,80.0 185.0,80.0 196.5,80.0 208.0,80.0 219.5,80.0 231.0,80.0 242.5,80.0 254.0,80.0 265.5,80.0 277.0,80.0 288.5,80.0 300.0,80.0 311.5,80.0 323.0,80.0 334.5,80.0 346.0,80.0 357.5,80.0 369.0,80.0 380.5,80.0 392.0,80.0 403.5,80.0 415.0,80.0 426.5,80.0 438.0,80.0 449.5,80.0 461.0,80.0 472.5,80.0 484.0,80.0 495.5,80.0 507.0,80.0 518.5,80.0 530.0,80.0 530.0,120" fill="#dc2626" fill-opacity="0.08"/>
+<polyline points="70.0,80.0 81.5,80.0 93.0,80.0 104.5,80.0 116.0,80.0 127.5,80.0 139.0,80.0 150.5,80.0 162.0,80.0 173.5,80.0 185.0,80.0 196.5,80.0 208.0,80.0 219.5,80.0 231.0,80.0 242.5,80.0 254.0,80.0 265.5,80.0 277.0,80.0 288.5,80.0 300.0,80.0 311.5,80.0 323.0,80.0 334.5,80.0 346.0,80.0 357.5,80.0 369.0,80.0 380.5,80.0 392.0,80.0 403.5,80.0 415.0,80.0 426.5,80.0 438.0,80.0 449.5,80.0 461.0,80.0 472.5,80.0 484.0,80.0 495.5,80.0 507.0,80.0 518.5,80.0 530.0,80.0" fill="none" stroke="#dc2626" stroke-width="2"/>
+<line x1="70.0" y1="80.0" x2="70.0" y2="120.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="108.3" y1="80.0" x2="108.3" y2="120.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="146.7" y1="80.0" x2="146.7" y2="120.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="185.0" y1="80.0" x2="185.0" y2="120.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="223.3" y1="80.0" x2="223.3" y2="120.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="261.7" y1="80.0" x2="261.7" y2="120.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="300.0" y1="80.0" x2="300.0" y2="120.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="338.3" y1="80.0" x2="338.3" y2="120.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="376.7" y1="80.0" x2="376.7" y2="120.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="415.0" y1="80.0" x2="415.0" y2="120.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="453.3" y1="80.0" x2="453.3" y2="120.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="491.7" y1="80.0" x2="491.7" y2="120.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="530.0" y1="80.0" x2="530.0" y2="120.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<text x="548.0" y="72.0" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="normal">w</text>
+<line x1="300.0" y1="20.0" x2="300.0" y2="70.0" stroke="#1e293b" stroke-width="3" marker-end="url(#ah-1e293b)"/>
+<text x="312.0" y="32.0" font-size="17" fill="#1e293b" text-anchor="start" font-weight="bold">wL</text>
+<text x="300.0" y="164.0" font-size="15" fill="#94a3b8" text-anchor="middle" font-weight="normal">L/2</text>
+<line x1="300.0" y1="138.0" x2="300.0" y2="148.0" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="70" y="338.0" width="460" height="14" rx="2" fill="#475569"/>
+<polygon points="70.0,335 70.0,335.0 81.5,333.2 93.0,331.5 104.5,329.8 116.0,328.0 127.5,326.2 139.0,324.5 150.5,322.8 162.0,321.0 173.5,319.2 185.0,317.5 196.5,315.8 208.0,314.0 219.5,312.2 231.0,310.5 242.5,308.8 254.0,307.0 265.5,305.2 277.0,303.5 288.5,301.8 300.0,300.0 311.5,298.2 323.0,296.5 334.5,294.8 346.0,293.0 357.5,291.2 369.0,289.5 380.5,287.8 392.0,286.0 403.5,284.2 415.0,282.5 426.5,280.8 438.0,279.0 449.5,277.2 461.0,275.5 472.5,273.8 484.0,272.0 495.5,270.2 507.0,268.5 518.5,266.8 530.0,265.0 530.0,335" fill="#dc2626" fill-opacity="0.08"/>
+<polyline points="70.0,335.0 81.5,333.2 93.0,331.5 104.5,329.8 116.0,328.0 127.5,326.2 139.0,324.5 150.5,322.8 162.0,321.0 173.5,319.2 185.0,317.5 196.5,315.8 208.0,314.0 219.5,312.2 231.0,310.5 242.5,308.8 254.0,307.0 265.5,305.2 277.0,303.5 288.5,301.8 300.0,300.0 311.5,298.2 323.0,296.5 334.5,294.8 346.0,293.0 357.5,291.2 369.0,289.5 380.5,287.8 392.0,286.0 403.5,284.2 415.0,282.5 426.5,280.8 438.0,279.0 449.5,277.2 461.0,275.5 472.5,273.8 484.0,272.0 495.5,270.2 507.0,268.5 518.5,266.8 530.0,265.0" fill="none" stroke="#dc2626" stroke-width="2"/>
+<line x1="162.0" y1="321.0" x2="162.0" y2="335.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="208.0" y1="314.0" x2="208.0" y2="335.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="254.0" y1="307.0" x2="254.0" y2="335.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="300.0" y1="300.0" x2="300.0" y2="335.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="346.0" y1="293.0" x2="346.0" y2="335.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="392.0" y1="286.0" x2="392.0" y2="335.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="438.0" y1="279.0" x2="438.0" y2="335.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="484.0" y1="272.0" x2="484.0" y2="335.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="530.0" y1="265.0" x2="530.0" y2="335.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<text x="552.0" y="257.0" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="normal">w<tspan baseline-shift="sub" font-size="70%">0</tspan></text>
+<line x1="376.7" y1="205.0" x2="376.7" y2="281.0" stroke="#1e293b" stroke-width="3" marker-end="url(#ah-1e293b)"/>
+<text x="364.7" y="217.0" font-size="17" fill="#1e293b" text-anchor="end" font-weight="bold">w<tspan baseline-shift="sub" font-size="70%">0</tspan>L/2</text>
+<text x="376.7" y="379.0" font-size="15" fill="#94a3b8" text-anchor="middle" font-weight="normal">2L/3</text>
+<line x1="376.7" y1="353.0" x2="376.7" y2="363.0" stroke="#94a3b8" stroke-width="1.5"/>
+</svg>

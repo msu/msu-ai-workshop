@@ -9,17 +9,11 @@
 ## Setup
 
 * Rehearse once on the room network, and time it
-* Make a run folder with the deck rules:
-
-```bash
-mkdir -p ~/opener-demo
-cp ../templates/agents/LECTURES.md ../templates/agents/VOICE.md ~/opener-demo/
-```
-
-* Open two windows: this deck, and a terminal in `~/opener-demo`
+* The run folder is `lecture/`. Its `AGENTS.md` tells the agent to use `LECTURES.md` and `VOICE.md`
+* Open two windows: this deck, and a terminal in `lecture/`
 * Set the agent to accept edits, so permission prompts do not stop it
 * Default topic: TODO
-* Fallback deck: `~/opener-demo/fallback.md`, made on the default topic before the talk
+* Fallback deck: `lecture/fallback.md`, made on the default topic before the talk
 
 ## Flow
 
@@ -34,13 +28,13 @@ cp ../templates/agents/LECTURES.md ../templates/agents/VOICE.md ~/opener-demo/
 ## Prompt
 
 ```text
-Read LECTURES.md and VOICE.md. Write a Slidev lecture on <TOPIC> to deck.md.
+Write a Slidev lecture on <TOPIC>.
 ```
 
 ## Open The Result
 
 ```bash
-npx @slidev/cli deck.md --port 3031
+npx @slidev/cli deck.md --port 3033
 ```
 
 ## Follow-Up Prompt

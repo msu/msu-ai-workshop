@@ -11,6 +11,7 @@ slides/layouts/idea.vue  divider slide for each big idea
 site/                    static landing page
 site/tokens.css          shared colors and fonts
 demos/                   one script per live demo
+lecture/                 run folder and lecture rules for the opener demo
 .github/workflows/       builds the deck and site to GitHub Pages
 ```
 

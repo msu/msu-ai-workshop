@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="Atkinson Hyperlegible, Helvetica, Arial, sans-serif">
+<defs><marker id="ah-dc2626" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-2563eb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-7c3aed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-0891b2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0891b2"/></marker><marker id="ah-c026d3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c026d3"/></marker><marker id="ah-1e293b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e293b"/></marker><marker id="ah-475569" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-94a3b8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker></defs>
+<rect x="0" y="0" width="600" height="300" rx="14" fill="#f8fafc"/>
+<rect x="70" y="153.0" width="276.0" height="14" rx="2" fill="#475569"/>
+<path d="M 70 167 L 56 189 L 84 189 Z" fill="none" stroke="#1e293b" stroke-width="2"/>
+<line x1="48.0" y1="191.0" x2="92.0" y2="191.0" stroke="#1e293b" stroke-width="2"/>
+<line x1="52.0" y1="191.0" x2="46.0" y2="199.0" stroke="#1e293b" stroke-width="1.2"/>
+<line x1="61.0" y1="191.0" x2="55.0" y2="199.0" stroke="#1e293b" stroke-width="1.2"/>
+<line x1="70.0" y1="191.0" x2="64.0" y2="199.0" stroke="#1e293b" stroke-width="1.2"/>
+<line x1="79.0" y1="191.0" x2="73.0" y2="199.0" stroke="#1e293b" stroke-width="1.2"/>
+<line x1="88.0" y1="191.0" x2="82.0" y2="199.0" stroke="#1e293b" stroke-width="1.2"/>
+<polygon points="70.0,150 70.0,150.0 76.9,149.1 83.8,148.2 90.7,147.3 97.6,146.4 104.5,145.5 111.4,144.6 118.3,143.7 125.2,142.8 132.1,141.9 139.0,141.0 145.9,140.1 152.8,139.2 159.7,138.3 166.6,137.4 173.5,136.5 180.4,135.6 187.3,134.7 194.2,133.8 201.1,132.9 208.0,132.0 214.9,131.1 221.8,130.2 228.7,129.3 235.6,128.4 242.5,127.5 249.4,126.6 256.3,125.7 263.2,124.8 270.1,123.9 277.0,123.0 283.9,122.1 290.8,121.2 297.7,120.3 304.6,119.4 311.5,118.5 318.4,117.6 325.3,116.7 332.2,115.8 339.1,114.9 346.0,114.0 346.0,150" fill="#dc2626" fill-opacity="0.08"/>
+<polyline points="70.0,150.0 76.9,149.1 83.8,148.2 90.7,147.3 97.6,146.4 104.5,145.5 111.4,144.6 118.3,143.7 125.2,142.8 132.1,141.9 139.0,141.0 145.9,140.1 152.8,139.2 159.7,138.3 166.6,137.4 173.5,136.5 180.4,135.6 187.3,134.7 194.2,133.8 201.1,132.9 208.0,132.0 214.9,131.1 221.8,130.2 228.7,129.3 235.6,128.4 242.5,127.5 249.4,126.6 256.3,125.7 263.2,124.8 270.1,123.9 277.0,123.0 283.9,122.1 290.8,121.2 297.7,120.3 304.6,119.4 311.5,118.5 318.4,117.6 325.3,116.7 332.2,115.8 339.1,114.9 346.0,114.0" fill="none" stroke="#dc2626" stroke-width="2"/>
+<line x1="148.9" y1="139.7" x2="148.9" y2="150.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="188.3" y1="134.6" x2="188.3" y2="150.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="227.7" y1="129.4" x2="227.7" y2="150.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="267.1" y1="124.3" x2="267.1" y2="150.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="306.6" y1="119.1" x2="306.6" y2="150.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<line x1="346.0" y1="114.0" x2="346.0" y2="150.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ah-dc2626)"/>
+<text x="354.0" y="114.0" font-size="15" fill="#dc2626" text-anchor="start" font-weight="normal">w<tspan baseline-shift="sub" font-size="70%">0</tspan>x/L</text>
+<line x1="70.0" y1="260.0" x2="70.0" y2="205.0" stroke="#2563eb" stroke-width="2.5" marker-end="url(#ah-2563eb)"/>
+<text x="78.0" y="280.0" font-size="16" fill="#2563eb" text-anchor="start" font-weight="normal">w<tspan baseline-shift="sub" font-size="70%">0</tspan>L/6</text>
+<line x1="254.0" y1="40.0" x2="254.0" y2="105.0" stroke="#1e293b" stroke-width="3" marker-end="url(#ah-1e293b)"/>
+<text x="244.0" y="50.0" font-size="16" fill="#1e293b" text-anchor="end" font-weight="bold">w<tspan baseline-shift="sub" font-size="70%">0</tspan>x<tspan baseline-shift="super" font-size="70%">2</tspan>/2L</text>
+<line x1="254.0" y1="110.0" x2="254.0" y2="114.0" stroke="#1e293b" stroke-width="1"/>
+<line x1="254.0" y1="268.0" x2="346.0" y2="268.0" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="300.0" y="288.0" font-size="15" fill="#1e293b" text-anchor="middle" font-weight="normal" font-style="italic">x/3</text>
+<line x1="254.0" y1="261.0" x2="254.0" y2="275.0" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="346.0" y1="261.0" x2="346.0" y2="275.0" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="349.0" y1="168.0" x2="349.0" y2="208.0" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#ah-7c3aed)"/>
+<text x="360.0" y="212.0" font-size="18" fill="#7c3aed" text-anchor="start" font-weight="bold">V</text>
+<path d="M 376.6 184.5 A 32 32 0 0 0 376.6 135.5" fill="none" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#ah-7c3aed)"/>
+<text x="398.0" y="168.0" font-size="18" fill="#7c3aed" text-anchor="start" font-weight="bold">M</text>
+<text x="208.0" y="242.0" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="normal" font-style="italic">x</text>
+<line x1="78.0" y1="228.0" x2="346.0" y2="228.0" stroke="#94a3b8" stroke-width="1.2"/>
+</svg>

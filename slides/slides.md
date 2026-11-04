@@ -427,3 +427,12 @@ layout: end
     <a href="https://msu.github.io/msu-nov-2026-ai-workshop/">https://msu.github.io/msu-nov-2026-ai-workshop/</a>
   </div>
 </div>
+
+---
+layout: center
+class: qa-page
+---
+
+# Q&A
+
+<div class="qa-link">https://msu.github.io/msu-nov-2026-ai-workshop/</div>

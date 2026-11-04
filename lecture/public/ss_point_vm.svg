@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 470" font-family="Atkinson Hyperlegible, Helvetica, Arial, sans-serif">
+<defs><marker id="ah-dc2626" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-2563eb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-7c3aed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-0891b2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0891b2"/></marker><marker id="ah-c026d3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c026d3"/></marker><marker id="ah-1e293b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e293b"/></marker><marker id="ah-475569" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-94a3b8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker></defs>
+<rect x="0" y="0" width="600" height="470" rx="14" fill="#f8fafc"/>
+<rect x="70" y="73.0" width="460" height="14" rx="2" fill="#475569"/>
+<path d="M 70 87 L 56 109 L 84 109 Z" fill="none" stroke="#1e293b" stroke-width="2"/>
+<line x1="48.0" y1="111.0" x2="92.0" y2="111.0" stroke="#1e293b" stroke-width="2"/>
+<line x1="52.0" y1="111.0" x2="46.0" y2="119.0" stroke="#1e293b" stroke-width="1.2"/>
+<line x1="61.0" y1="111.0" x2="55.0" y2="119.0" stroke="#1e293b" stroke-width="1.2"/>
+<line x1="70.0" y1="111.0" x2="64.0" y2="119.0" stroke="#1e293b" stroke-width="1.2"/>
+<line x1="79.0" y1="111.0" x2="73.0" y2="119.0" stroke="#1e293b" stroke-width="1.2"/>
+<line x1="88.0" y1="111.0" x2="82.0" y2="119.0" stroke="#1e293b" stroke-width="1.2"/>
+<path d="M 530 87 L 518 103 L 542 103 Z" fill="none" stroke="#1e293b" stroke-width="2"/>
+<circle cx="523" cy="107" r="4" fill="none" stroke="#1e293b" stroke-width="2"/>
+<circle cx="537" cy="107" r="4" fill="none" stroke="#1e293b" stroke-width="2"/>
+<line x1="508.0" y1="112.0" x2="552.0" y2="112.0" stroke="#1e293b" stroke-width="2"/>
+<line x1="223.3" y1="30.0" x2="223.3" y2="71.0" stroke="#dc2626" stroke-width="2.5" marker-end="url(#ah-dc2626)"/>
+<text x="223.3" y="22.0" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="normal">P</text>
+<text x="40.0" y="221.0" font-size="20" fill="#0891b2" text-anchor="middle" font-weight="bold" font-style="italic">V</text>
+<polygon points="70.0,215.0 70.0,146.0 223.3,146.0 223.3,249.5 530.0,249.5 530.0,215.0" fill="#0891b2" fill-opacity="0.15"/>
+<polyline points="70.0,146.0 223.3,146.0 223.3,249.5 530.0,249.5" fill="none" stroke="#0891b2" stroke-width="3" stroke-linejoin="round"/>
+<line x1="70.0" y1="215.0" x2="530.0" y2="215.0" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="146.7" y="138.0" font-size="15" fill="#0891b2" text-anchor="middle" font-weight="normal">Pb/L</text>
+<text x="376.7" y="271.5" font-size="15" fill="#0891b2" text-anchor="middle" font-weight="normal">-Pa/L</text>
+<text x="40.0" y="433.5" font-size="20" fill="#c026d3" text-anchor="middle" font-weight="bold" font-style="italic">M</text>
+<polygon points="70.0,427.5 70.0,427.5 223.3,306.0 530.0,427.5 530.0,427.5" fill="#c026d3" fill-opacity="0.15"/>
+<polyline points="70.0,427.5 223.3,306.0 530.0,427.5" fill="none" stroke="#c026d3" stroke-width="3" stroke-linejoin="round"/>
+<line x1="70.0" y1="427.5" x2="530.0" y2="427.5" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="223.3" y="296.0" font-size="15" fill="#c026d3" text-anchor="middle" font-weight="normal">Pab/L</text>
+<line x1="223.3" y1="95.0" x2="223.3" y2="450.0" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="5 4"/>
+</svg>

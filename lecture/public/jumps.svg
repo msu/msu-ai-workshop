@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 430" font-family="Atkinson Hyperlegible, Helvetica, Arial, sans-serif">
+<defs><marker id="ah-dc2626" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-2563eb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-7c3aed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-0891b2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0891b2"/></marker><marker id="ah-c026d3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c026d3"/></marker><marker id="ah-1e293b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e293b"/></marker><marker id="ah-475569" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-94a3b8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker></defs>
+<rect x="0" y="0" width="600" height="430" rx="14" fill="#f8fafc"/>
+<text x="160.0" y="30.0" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="bold">point load P</text>
+<rect x="40" y="83" width="240" height="12" fill="#475569"/>
+<text x="440.0" y="30.0" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="bold">couple C</text>
+<rect x="320" y="83" width="240" height="12" fill="#475569"/>
+<line x1="160.0" y1="40.0" x2="160.0" y2="80.0" stroke="#dc2626" stroke-width="2.5" marker-end="url(#ah-dc2626)"/>
+<path d="M 417.4 80.8 A 24 24 0 0 1 462.6 80.8" fill="none" stroke="#dc2626" stroke-width="2.5" marker-end="url(#ah-dc2626)"/>
+<line x1="40.0" y1="180.0" x2="280.0" y2="180.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="22.0" y="186.0" font-size="18" fill="#0891b2" text-anchor="middle" font-weight="bold" font-style="italic">V</text>
+<line x1="320.0" y1="180.0" x2="560.0" y2="180.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="302.0" y="186.0" font-size="18" fill="#0891b2" text-anchor="middle" font-weight="bold" font-style="italic">V</text>
+<line x1="40.0" y1="320.0" x2="280.0" y2="320.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="22.0" y="326.0" font-size="18" fill="#c026d3" text-anchor="middle" font-weight="bold" font-style="italic">M</text>
+<line x1="320.0" y1="320.0" x2="560.0" y2="320.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="302.0" y="326.0" font-size="18" fill="#c026d3" text-anchor="middle" font-weight="bold" font-style="italic">M</text>
+<polyline points="40.0,140.0 160.0,140.0 160.0,220.0 280.0,220.0" fill="none" stroke="#0891b2" stroke-width="3"/>
+<text x="192.0" y="185.0" font-size="14" fill="#0891b2" text-anchor="middle" font-weight="normal">jump P</text>
+<polyline points="320.0,200.0 560.0,200.0" fill="none" stroke="#0891b2" stroke-width="3"/>
+<text x="440.0" y="222.0" font-size="14" fill="#0891b2" text-anchor="middle" font-weight="normal">no jump</text>
+<polyline points="40.0,320.0 160.0,260.0 280.0,320.0" fill="none" stroke="#c026d3" stroke-width="3"/>
+<text x="160.0" y="250.0" font-size="14" fill="#c026d3" text-anchor="middle" font-weight="normal">kink</text>
+<polyline points="320.0,320.0 440.0,355.0 440.0,285.0 560.0,320.0" fill="none" stroke="#c026d3" stroke-width="3"/>
+<text x="478.0" y="300.0" font-size="14" fill="#c026d3" text-anchor="middle" font-weight="normal">jump C</text>
+<line x1="70.0" y1="0.0" x2="70.0" y2="0.0" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="160.0" y1="100.0" x2="160.0" y2="400.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="440.0" y1="100.0" x2="440.0" y2="400.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="5 4"/>
+</svg>
