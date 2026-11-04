@@ -26,28 +26,45 @@
 <p class="actions"><a class="primary" href="slides/">View the slides</a></p>
 
 <section>
-  <h2>Recording</h2>
+  <h2 id="recording"><a href="#recording">Recording</a></h2>
   <div class="video">
-    <iframe src="https://www.youtube-nocookie.com/embed/gC-NwilgHBU" title="Effective AI For Engineering Faculty"
+    <iframe id="talk-video" src="https://www.youtube-nocookie.com/embed/gC-NwilgHBU?enablejsapi=1" title="Effective AI For Engineering Faculty"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
+
+  <details class="drawer transcript">
+    <summary>Transcript</summary>
+    <div class="drawer-bar"><button type="button" class="copy" data-copy=".transcript-body">Copy</button></div>
+    <!-- One paragraph per cue. The time link seeks the video above:
+         <p><a class="ts" href="https://youtu.be/gC-NwilgHBU?t=75">1:15</a> Text...</p> -->
+    <div class="transcript-body">
+      <p class="soon">Coming soon</p>
+    </div>
+  </details>
 </section>
 
 <section>
-  <h2>Six Big Ideas</h2>
+  <h2 id="ideas"><a href="#ideas">Six Big Ideas</a></h2>
   <ol class="ideas">
-    <li><strong>Learn The Command Line</strong> <span>Agentic work is local, not in a chatbot</span></li>
-    <li><strong>LLMs <em>Love</em> Text</strong> <span>If an agent can read it, an agent can help with it</span></li>
-    <li><strong>Killer Visualizations</strong> <span>Build the visualizations you always wanted in class</span></li>
-    <li><strong>Think <em>Big</em></strong> <span>You probably don't realize what you can do now</span></li>
-    <li><strong>Automate The Grind</strong> <span>Let agents deal with the tedium: automate, automate, automate</span></li>
-    <li><strong>Protect Learning</strong> <span>AI is a tool, that tool can be used for good or for evil...</span></li>
+    <!-- Summary format: <p>Text <a class="ts" href="https://youtu.be/gC-NwilgHBU?t=75">1:15</a></p> -->
+    <li><strong>Learn The Command Line</strong> <span>Agentic work is local, not in a chatbot</span>
+      <details class="drawer"><summary>Summary</summary><p class="soon">Coming soon</p></details></li>
+    <li><strong>LLMs <em>Love</em> Text</strong> <span>If an agent can read it, an agent can help with it</span>
+      <details class="drawer"><summary>Summary</summary><p class="soon">Coming soon</p></details></li>
+    <li><strong>Killer Visualizations</strong> <span>Build the visualizations you always wanted in class</span>
+      <details class="drawer"><summary>Summary</summary><p class="soon">Coming soon</p></details></li>
+    <li><strong>Think <em>Big</em></strong> <span>You probably don't realize what you can do now</span>
+      <details class="drawer"><summary>Summary</summary><p class="soon">Coming soon</p></details></li>
+    <li><strong>Automate The Grind</strong> <span>Let agents deal with the tedium: automate, automate, automate</span>
+      <details class="drawer"><summary>Summary</summary><p class="soon">Coming soon</p></details></li>
+    <li><strong>Protect Learning</strong> <span>AI is a tool, that tool can be used for good or for evil...</span>
+      <details class="drawer"><summary>Summary</summary><p class="soon">Coming soon</p></details></li>
   </ol>
 </section>
 
 <section>
-  <h2>Tools From The Talk</h2>
+  <h2 id="tools"><a href="#tools">Tools From The Talk</a></h2>
   <ul class="links tools">
     <li><img src="img/tools/nand.svg" alt=""><div><a href="https://nand-to-add.cs.montana.edu">NAND Game</a> <span>Build every gate from NAND, up to an 8-bit adder</span></div></li>
     <li><img src="img/tools/mtmc.png" alt=""><div><a href="https://mtmc.cs.montana.edu">MTMC-16</a> <span>A 16-bit educational computer</span></div></li>
@@ -59,7 +76,7 @@
 </section>
 
 <section>
-  <h2>Go Deeper</h2>
+  <h2 id="go-deeper"><a href="#go-deeper">Go Deeper</a></h2>
   <ul class="links">
     <li><a href="https://htmx.org/essays/universities-and-ai/">The University In The AI Era</a> <span>What AI means for universities and CS programs, and the changes I am making</span></li>
     <li><a href="https://htmx.org/essays/yes-and/">Yes, And...</a> <span>Should you still become a programmer? Yes, and build skills beyond writing code</span></li>
@@ -70,11 +87,11 @@
 </section>
 
 <section>
-  <h2>Lecture on Shear &amp; Moment Diagrams</h2>
+  <h2 id="lecture"><a href="#lecture">Lecture on Shear &amp; Moment Diagrams</a></h2>
   <p>An agent generated this lecture during the presentation. Carson has no idea what this is.</p>
   <p class="sub-links"><a href="lecture/">Open full screen</a> / <a href="https://github.com/msu/msu-nov-2026-ai-workshop/blob/main/lecture/deck.md">Source on GitHub</a></p>
   <div class="video">
-    <iframe id="lecture" src="lecture/" title="Generated lecture on shear and moment diagrams"></iframe>
+    <iframe id="lecture-deck" src="lecture/" title="Generated lecture on shear and moment diagrams"></iframe>
   </div>
   <div class="deck-controls">
     <button type="button" data-key="ArrowLeft" aria-label="Previous slide">&larr; Previous</button>
@@ -84,7 +101,7 @@
     // The deck is on the same origin, so the buttons send arrow keys to it.
     document.querySelectorAll('.deck-controls button').forEach(button => {
       button.addEventListener('click', () => {
-        const deck = document.getElementById('lecture').contentWindow
+        const deck = document.getElementById('lecture-deck').contentWindow
         // Send keyup too, or the deck treats the key as held down
         for (const type of ['keydown', 'keyup']) {
           deck.dispatchEvent(new deck.KeyboardEvent(type, { key: button.dataset.key, code: button.dataset.key, bubbles: true }))
@@ -93,6 +110,34 @@
     })
   </script>
 </section>
+
+<script>
+  // A time link seeks the embedded video. Without the script, the link opens YouTube at that time.
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a.ts')
+    if (!link) return
+    const seconds = Number(new URL(link.href).searchParams.get('t'))
+    const video = document.getElementById('talk-video')
+    event.preventDefault()
+    for (const [func, args] of [['seekTo', [seconds, true]], ['playVideo', []]]) {
+      video.contentWindow.postMessage(JSON.stringify({ event: 'command', func, args }), '*')
+    }
+    video.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  })
+
+  document.querySelectorAll('button.copy').forEach(button => {
+    button.addEventListener('click', async () => {
+      const text = document.querySelector(button.dataset.copy).innerText
+      try {
+        await navigator.clipboard.writeText(text)
+        button.textContent = 'Copied'
+      } catch {
+        button.textContent = 'Copy failed'
+      }
+      setTimeout(() => { button.textContent = 'Copy' }, 1500)
+    })
+  })
+</script>
 
 </body>
 </html>
