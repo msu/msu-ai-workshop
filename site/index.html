@@ -48,13 +48,13 @@
 
 <section>
   <h2>Tools From The Talk</h2>
-  <ul class="links">
-    <li><a href="https://nand-to-add.cs.montana.edu">NAND Game</a> <span>Build every gate from NAND, up to an 8-bit adder</span></li>
-    <li><a href="https://mtmc.cs.montana.edu">MTMC-16</a> <span>A 16-bit educational computer</span></li>
-    <li><a href="https://scott-cpu.cs.montana.edu">Scott CPU</a> <span>A gate-level emulator of the computer from <em>But How Do It Know?</em></span></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line">Command Line Crash Course</a> <span>MDN introduction to the terminal</span></li>
-    <li><a href="https://catatui.cs.montana.edu">catatui</a> <span>The Montana State command line agent</span></li>
-    <li><a href="https://sli.dev">Slidev</a> <span>Markdown-based slides</span></li>
+  <ul class="links tools">
+    <li><img src="img/tools/nand.svg" alt=""><div><a href="https://nand-to-add.cs.montana.edu">NAND Game</a> <span>Build every gate from NAND, up to an 8-bit adder</span></div></li>
+    <li><img src="img/tools/mtmc.png" alt=""><div><a href="https://mtmc.cs.montana.edu">MTMC-16</a> <span>A 16-bit educational computer</span></div></li>
+    <li><img src="img/tools/scott-cpu.svg" alt=""><div><a href="https://scott-cpu.cs.montana.edu">Scott CPU</a> <span>A gate-level emulator of the computer from <em>But How Do It Know?</em></span></div></li>
+    <li><img src="img/tools/mdn.png" alt=""><div><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line">Command Line Crash Course</a> <span>MDN introduction to the terminal</span></div></li>
+    <li><img src="img/tools/catatui.png" alt=""><div><a href="https://catatui.cs.montana.edu">catatui</a> <span>The Montana State command line agent</span></div></li>
+    <li><img src="img/tools/slidev.svg" alt=""><div><a href="https://sli.dev">Slidev</a> <span>Markdown-based slides</span></div></li>
   </ul>
 </section>
 
@@ -70,11 +70,28 @@
 </section>
 
 <section>
-  <h2>Lecture on Shear &amp; Moment Diagrams Generated During Presentation (Carson has no idea what this is)</h2>
+  <h2>Lecture on Shear &amp; Moment Diagrams</h2>
+  <p>An agent generated this lecture during the presentation. Carson has no idea what this is.</p>
   <p class="sub-links"><a href="lecture/">Open full screen</a> / <a href="https://github.com/msu/msu-nov-2026-ai-workshop/blob/main/lecture/deck.md">Source on GitHub</a></p>
   <div class="video">
-    <iframe src="lecture/" title="Generated lecture on shear and moment diagrams"></iframe>
+    <iframe id="lecture" src="lecture/" title="Generated lecture on shear and moment diagrams"></iframe>
   </div>
+  <div class="deck-controls">
+    <button type="button" data-key="ArrowLeft" aria-label="Previous slide">&larr; Previous</button>
+    <button type="button" data-key="ArrowRight" aria-label="Next slide">Next &rarr;</button>
+  </div>
+  <script>
+    // The deck is on the same origin, so the buttons send arrow keys to it.
+    document.querySelectorAll('.deck-controls button').forEach(button => {
+      button.addEventListener('click', () => {
+        const deck = document.getElementById('lecture').contentWindow
+        // Send keyup too, or the deck treats the key as held down
+        for (const type of ['keydown', 'keyup']) {
+          deck.dispatchEvent(new deck.KeyboardEvent(type, { key: button.dataset.key, code: button.dataset.key, bubbles: true }))
+        }
+      })
+    })
+  </script>
 </section>
 
 </body>

@@ -85,15 +85,17 @@ h2 {
 }
 
 .sub-links {
-  margin: -0.5rem 0 0.75rem;
+  margin: 0 0 0.75rem;
   color: var(--site-muted);
 }
 
 .video {
   position: relative;
   aspect-ratio: 16 / 9;
-  border: 1px solid var(--site-line);
-  border-radius: 3px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #000;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 0.08), 0 6px 20px rgb(0 0 0 / 0.12);
 }
 
 .video iframe {
@@ -148,6 +150,40 @@ h2 {
 
 .ideas span, .links span {
   color: var(--site-muted);
+}
+
+.tools li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tools img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.deck-controls {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.9rem;
+}
+
+.deck-controls button {
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--site-line);
+  border-radius: 3px;
+  background: #fff;
+  color: var(--site-blue);
+  font: 600 1rem var(--sans);
+  cursor: pointer;
+}
+
+.deck-controls button:hover {
+  border-color: var(--site-blue);
 }
 
 @media (max-width: 480px) {
