@@ -1,6 +1,7 @@
 ---
 title: Effective AI For Engineering Faculty
 info: Montana State University faculty workshop, Nov 4 2026, NAH 137
+favicon: ./favicon.png
 colorSchema: dark
 defaults:
   layout: two-cols

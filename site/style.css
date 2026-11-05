@@ -238,6 +238,21 @@ h2 a:hover::after {
   justify-content: flex-end;
 }
 
+/* Copy button sits on the summary line, clear of the scroll bar */
+.transcript {
+  position: relative;
+}
+
+.transcript .drawer-bar {
+  position: absolute;
+  top: 0.45rem;
+  right: 0;
+}
+
+.transcript .transcript-body {
+  margin-top: 0.6rem;
+}
+
 .drawer-bar button {
   padding: 0.2rem 0.75rem;
   border: 1px solid var(--site-line);
