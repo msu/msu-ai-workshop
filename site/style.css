@@ -263,3 +263,13 @@ h2 a:hover::after {
     width: 72px;
   }
 }
+
+.transcript-body h3 {
+  margin: 1.2rem 0 0.4rem;
+  font-size: 1rem;
+}
+
+.ideas .drawer ul {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+}
